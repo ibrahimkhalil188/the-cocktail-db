@@ -1,3 +1,6 @@
  #body{
-     background-size: 195vh  100vh;
+     background-size: 197vh  100vh;
+ }
+ #null-cocktail{
+     display: none;
  }
