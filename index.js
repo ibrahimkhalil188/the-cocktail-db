@@ -11,10 +11,6 @@ const showCocktailData = cocktails => {
     displayCocktail.textContent = ""
     cocktails.forEach(cocktail => {
         console.log(cocktail)
-        const inputField = document.getElementById("input-field").value
-        if (inputField == '') {
-            document.getElementById("null-cocktail").style.display = "block"
-        }
         const div = document.createElement("div")
         div.innerHTML = `
             <div class="col">
